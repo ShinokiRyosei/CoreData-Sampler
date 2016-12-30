@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		39C1876A1E1705D800B70042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C187691E1705D800B70042 /* AppDelegate.swift */; };
-		39C1876C1E1705D800B70042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1876B1E1705D800B70042 /* ViewController.swift */; };
 		39C1876F1E1705D800B70042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C1876D1E1705D800B70042 /* Main.storyboard */; };
 		39C187711E1705D800B70042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C187701E1705D800B70042 /* Assets.xcassets */; };
 		39C187741E1705D800B70042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C187721E1705D800B70042 /* LaunchScreen.storyboard */; };
 		39C1877F1E1705D900B70042 /* CoreData_SamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1877E1E1705D900B70042 /* CoreData_SamplerTests.swift */; };
 		39C1878A1E1705D900B70042 /* CoreData_SamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C187891E1705D900B70042 /* CoreData_SamplerUITests.swift */; };
+		39C1879E1E1707EF00B70042 /* CoreDataSampler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C1879C1E1707EF00B70042 /* CoreDataSampler.xcdatamodeld */; };
+		39C187A01E17080C00B70042 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1879F1E17080C00B70042 /* TODO.swift */; };
+		39C187A31E17085900B70042 /* TODO+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C187A21E17085900B70042 /* TODO+Properties.swift */; };
+		39C187A51E1708CA00B70042 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C187A41E1708CA00B70042 /* TabViewController.swift */; };
+		39C187A71E1708FD00B70042 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C187A61E1708FD00B70042 /* ListViewController.swift */; };
+		39C187AA1E17092A00B70042 /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C187A91E17092A00B70042 /* ListViewController.storyboard */; };
+		39C187AC1E17094300B70042 /* TabViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C187AB1E17094300B70042 /* TabViewController.storyboard */; };
+		39C187AE1E17096A00B70042 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C187AD1E17096A00B70042 /* AddViewController.swift */; };
+		39C187B21E1709A600B70042 /* AddViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C187B11E1709A600B70042 /* AddViewController.storyboard */; };
+		39C187B41E1709E500B70042 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C187B31E1709E500B70042 /* StoryboardInstantiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,6 @@
 /* Begin PBXFileReference section */
 		39C187661E1705D800B70042 /* CoreData-Sampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Sampler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C187691E1705D800B70042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39C1876B1E1705D800B70042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39C1876E1E1705D800B70042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39C187701E1705D800B70042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C187731E1705D800B70042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,16 @@
 		39C187851E1705D900B70042 /* CoreData-SamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreData-SamplerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C187891E1705D900B70042 /* CoreData_SamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_SamplerUITests.swift; sourceTree = "<group>"; };
 		39C1878B1E1705D900B70042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C1879D1E1707EF00B70042 /* CoreDataSampler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSampler.xcdatamodel; sourceTree = "<group>"; };
+		39C1879F1E17080C00B70042 /* TODO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TODO.swift; path = Objects/TODO.swift; sourceTree = "<group>"; };
+		39C187A21E17085900B70042 /* TODO+Properties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "TODO+Properties.swift"; path = "Objects/TODO+Properties.swift"; sourceTree = "<group>"; };
+		39C187A41E1708CA00B70042 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		39C187A61E1708FD00B70042 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = List/ListViewController.swift; sourceTree = "<group>"; };
+		39C187A91E17092A00B70042 /* ListViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ListViewController.storyboard; path = List/ListViewController.storyboard; sourceTree = "<group>"; };
+		39C187AB1E17094300B70042 /* TabViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabViewController.storyboard; sourceTree = "<group>"; };
+		39C187AD1E17096A00B70042 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = Add/AddViewController.swift; sourceTree = "<group>"; };
+		39C187B11E1709A600B70042 /* AddViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AddViewController.storyboard; path = Add/AddViewController.storyboard; sourceTree = "<group>"; };
+		39C187B31E1709E500B70042 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardInstantiable.swift; path = Protocols/StoryboardInstantiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +115,12 @@
 		39C187681E1705D800B70042 /* CoreData-Sampler */ = {
 			isa = PBXGroup;
 			children = (
-				39C187691E1705D800B70042 /* AppDelegate.swift */,
-				39C187981E1705FC00B70042 /* Scenes */,
+				39C1879C1E1707EF00B70042 /* CoreDataSampler.xcdatamodeld */,
 				39C187971E1705F500B70042 /* Resources */,
+				39C187B51E170A1700B70042 /* Protocols */,
+				39C187A11E17084300B70042 /* Objects */,
+				39C187981E1705FC00B70042 /* Scenes */,
+				39C187691E1705D800B70042 /* AppDelegate.swift */,
 				39C187751E1705D800B70042 /* Info.plist */,
 			);
 			path = "CoreData-Sampler";
@@ -126,19 +147,57 @@
 		39C187971E1705F500B70042 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				39C1876D1E1705D800B70042 /* Main.storyboard */,
 				39C187701E1705D800B70042 /* Assets.xcassets */,
 				39C187721E1705D800B70042 /* LaunchScreen.storyboard */,
+				39C1876D1E1705D800B70042 /* Main.storyboard */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		39C187981E1705FC00B70042 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				39C1876B1E1705D800B70042 /* ViewController.swift */,
+				39C187A41E1708CA00B70042 /* TabViewController.swift */,
+				39C187AB1E17094300B70042 /* TabViewController.storyboard */,
+				39C187A81E17091C00B70042 /* List */,
+				39C187B01E17099700B70042 /* Add */,
 			);
-			name = Scenes;
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		39C187A11E17084300B70042 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				39C1879F1E17080C00B70042 /* TODO.swift */,
+				39C187A21E17085900B70042 /* TODO+Properties.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		39C187A81E17091C00B70042 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				39C187A61E1708FD00B70042 /* ListViewController.swift */,
+				39C187A91E17092A00B70042 /* ListViewController.storyboard */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		39C187B01E17099700B70042 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				39C187AD1E17096A00B70042 /* AddViewController.swift */,
+				39C187B11E1709A600B70042 /* AddViewController.storyboard */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		39C187B51E170A1700B70042 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				39C187B31E1709E500B70042 /* StoryboardInstantiable.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +310,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C187AC1E17094300B70042 /* TabViewController.storyboard in Resources */,
 				39C187741E1705D800B70042 /* LaunchScreen.storyboard in Resources */,
 				39C187711E1705D800B70042 /* Assets.xcassets in Resources */,
 				39C1876F1E1705D800B70042 /* Main.storyboard in Resources */,
+				39C187AA1E17092A00B70042 /* ListViewController.storyboard in Resources */,
+				39C187B21E1709A600B70042 /* AddViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +340,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C1876C1E1705D800B70042 /* ViewController.swift in Sources */,
+				39C187A51E1708CA00B70042 /* TabViewController.swift in Sources */,
+				39C187A31E17085900B70042 /* TODO+Properties.swift in Sources */,
+				39C187AE1E17096A00B70042 /* AddViewController.swift in Sources */,
 				39C1876A1E1705D800B70042 /* AppDelegate.swift in Sources */,
+				39C1879E1E1707EF00B70042 /* CoreDataSampler.xcdatamodeld in Sources */,
+				39C187A01E17080C00B70042 /* TODO.swift in Sources */,
+				39C187B41E1709E500B70042 /* StoryboardInstantiable.swift in Sources */,
+				39C187A71E1708FD00B70042 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +389,7 @@
 				39C1876E1E1705D800B70042 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		39C187721E1705D800B70042 /* LaunchScreen.storyboard */ = {
@@ -329,6 +398,7 @@
 				39C187731E1705D800B70042 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -528,6 +598,7 @@
 				39C187901E1705D900B70042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39C187911E1705D900B70042 /* Build configuration list for PBXNativeTarget "CoreData-SamplerTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +607,7 @@
 				39C187931E1705D900B70042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39C187941E1705D900B70042 /* Build configuration list for PBXNativeTarget "CoreData-SamplerUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,8 +616,22 @@
 				39C187961E1705D900B70042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39C1879C1E1707EF00B70042 /* CoreDataSampler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39C1879D1E1707EF00B70042 /* CoreDataSampler.xcdatamodel */,
+			);
+			currentVersion = 39C1879D1E1707EF00B70042 /* CoreDataSampler.xcdatamodel */;
+			path = CoreDataSampler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 39C1875E1E1705D800B70042 /* Project object */;
 }
